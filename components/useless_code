@@ -1,0 +1,8 @@
+<View>
+      <View style={{margin: 15}}>
+        <Button title='Signup'/>
+      </View>
+      <View style={{margin: 15}}>
+        <Button title='Login'/>
+      </View>
+    </View>

@@ -1,18 +1,25 @@
-//import 'react-native-gesture-handler';
+import 'react-native-gesture-handler';
 import React, {Component} from 'react';
-import {Text, View, TextInput, Dimensions} from 'react-native';
-import LinearGradient from 'react-native-linear-gradient';
-//import { color } from 'react-native-reanimated';
-import NavBar from './components/navbar'
-import Form from './components/form'
+import {Text, View, TextInput, Dimensions, Button} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
+import NavigateSignUp from './components/navigatesignup';
+import NavigateLogIn from './components/navigatelogin';
+import Home from './components/home';
 
 const myapp = () => {
+  //make login.js and signup.js so that we can make call them here.
+
+  const Stack= createStackNavigator();
+
   return(
-    <>
-      <NavBar color='#fc7703' text='LOG-IN'/>
-      <Form colors={['#0093E9', '#80D0C7']} locations={[0.4, 0.75]} inputs={['USERNAME', 'PASSWORD']}/>
-      //make login.js and signup.js so that we can make call them here. 
-    </>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={Home}/>
+        <Stack.Screen name="Sign Up" component={NavigateSignUp}/>
+        <Stack.Screen name="Log In" component={NavigateLogIn}/>
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 
