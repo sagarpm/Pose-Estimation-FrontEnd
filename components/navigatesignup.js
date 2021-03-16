@@ -9,7 +9,7 @@ class NavigateSignUp extends Component
     {
         return(
             <>
-                <NavBar color='#fc7703' text='SIGN-UP'/>
+                <NavBar navigation={this.props.navigation} color='#fc7703' text='SIGN-UP'/>
                 <Signup colors={['#0093E9', '#80D0C7']} locations={[0.4, 0.75]}/>
             </>
         );
