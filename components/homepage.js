@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Text, View, Button, ScrollView, ImageBackground, Dimensions, FlatList} from 'react-native';
+import {Text, View, Button} from 'react-native';
 import {FlatGrid} from 'react-native-super-grid';
 import Card from './card';
 import NavBar from './navbar';
