@@ -30,7 +30,7 @@ class NavBar extends Component
           paddingLeft: 70,
         }}>
           <Text style={{
-            fontSize: 18,
+            fontSize: 24,
           }}>
             {this.props.text}
           </Text>
