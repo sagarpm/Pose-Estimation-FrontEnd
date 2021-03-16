@@ -8,7 +8,7 @@ class NavigateLogIn extends Component
     {
         return(
             <>
-                <NavBar color='#fc7703' text='LOG-IN' navigation={this.props.navigation}/>
+                <NavBar color='#fc7703' text='LOG-IN' navigation={this.props.navigation} iconname={"chevron-left"}/>
                 <Login colors={['#0093E9', '#80D0C7']} locations={[0.4, 0.75]}/>
             </>
         );

@@ -14,7 +14,7 @@ class CardStack extends Component
                     borderWidth: 2,
                     alignItems: 'center',
                     justifyContent: 'center',
-                    backgroundColor: '#0d0d91'
+                    backgroundColor: '#16a085'
                 }}>
                     <Text style={{
                         fontSize: 24,
