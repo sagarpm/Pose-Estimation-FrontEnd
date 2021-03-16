@@ -34,7 +34,7 @@ class Home extends Component
                 justifyContent: 'center',
                 }}
             >
-                <NavBar color='orange' text="Home" iconname={"user"}/>
+                <NavBar color='orange' text="Home" iconname={"user"} navigation={this.props.navigation}/>
                 <FlatGrid
                     itemDimension={130}
                     data={items}
@@ -42,12 +42,6 @@ class Home extends Component
                         <Card activity={item.name}/>
                     )}
                 />
-                <View style={{margin: 15}}>
-                    <Button title='Signup' onPress={() => this.props.navigation.navigate('Sign Up')}/>
-                </View>
-                <View style={{margin: 15}}>
-                    <Button title='Login' onPress={() => this.props.navigation.navigate('Log In')}/>
-                </View>
             </LinearGradient>
         );
     }

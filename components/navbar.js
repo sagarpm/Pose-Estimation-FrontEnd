@@ -20,7 +20,7 @@ class NavBar extends Component
             name={this.props.iconname}
             type='evilicon'
             size={45}
-            onPress={() => this.props.navigation.goBack()}
+            onPress={() => this.props.navigation.navigate('Welcome')}
           />
         </View>
         <View style={{

@@ -5,6 +5,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import Login from './screens/Login';
 import Signup from './screens/Signup'
 import Home from './components/home';
+import Welcome from './screens/Welcome';
 
 const myapp = () => {
   //make login.js and signup.js so that we can make call them here.
@@ -21,6 +22,7 @@ const myapp = () => {
         <Stack.Screen name="Home" component={Home}/>
         <Stack.Screen name="Sign Up" component={Signup}/>
         <Stack.Screen name="Log In" component={Login}/>
+        <Stack.Screen name="Welcome" component={Welcome}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
