@@ -17,7 +17,7 @@ class NavBar extends Component
             paddingLeft: 20,
           }}>
           <Icon
-            name="chevron-left"
+            name={this.props.iconname}
             type='evilicon'
             size={45}
             onPress={() => this.props.navigation.goBack()}

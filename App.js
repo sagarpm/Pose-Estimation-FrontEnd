@@ -4,7 +4,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import Login from './screens/Login';
 import Signup from './screens/Signup'
-import Home from './components/homepage';
+import Home from './components/home';
 
 const myapp = () => {
   //make login.js and signup.js so that we can make call them here.

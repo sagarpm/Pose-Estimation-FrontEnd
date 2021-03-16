@@ -34,7 +34,7 @@ class Home extends Component
                 justifyContent: 'center',
                 }}
             >
-                <NavBar color='orange' text="Home"/>
+                <NavBar color='orange' text="Home" iconname={"user"}/>
                 <FlatGrid
                     itemDimension={130}
                     data={items}
