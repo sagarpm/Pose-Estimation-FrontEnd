@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "112652289357",
+    "project_id": "pose-estimation-6c5bd",
+    "storage_bucket": "pose-estimation-6c5bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112652289357:android:7680d95072a5b107f5a304",
+        "android_client_info": {
+          "package_name": "com.frontendapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112652289357-q6thjejalluu1eou3erlitvemgmpf6id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANHxSyl2U0Yua4EkCpl-DX0g7_g6yWr0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112652289357-q6thjejalluu1eou3erlitvemgmpf6id.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
